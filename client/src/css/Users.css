@@ -1,36 +1,25 @@
-.ManagArt-main{
+.ManagUsr-main{
+  margin: 4px auto;
 }
 
-.Article{
+.User{
+  width: 97%;
+  height: 117px;
   display: flex;
   flex-direction: column;
-  width: 97%;
-  background-color: #F4F4F4;
-  margin: 4px auto;
-  padding: 4px;
+  background-color: #f4f4f4;
+  justify-content: space-between;
+  margin: 3px auto;
 }
 
-.Article img{
-  width: 95%; 
-  margin: 0 7px;
-}
-
-.Article-main h2{
-  text-align: center;
+.User-name{
   margin: 20px auto;
+  text-align: center;
 }
 
-.Article-main p{
-  padding: 7px;
-}
+/***************** user buttons *************/
 
-.Article-author{
-  float: right;
-}
-
-/*********** article buttons ********/
-
-.Article-buttons{
+.User-buttons{
   display: flex;
   justify-content: space-between;
   padding: 8px;
@@ -50,7 +39,8 @@
   background-color: #FF5858;
 }
 
-.ManagArt-create-button{
+
+.ManagUsr-create-button{
   position: fixed;
   left: 50px;
   bottom: 40px;
@@ -62,8 +52,4 @@
   align-items: center;
   border-radius: 10px;
   
-}
-
-.ManagArt-create-button:hover{
-  cursor: pointer;
 }
