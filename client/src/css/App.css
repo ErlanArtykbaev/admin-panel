@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.body{
+  min-width: 360px;
+  max-width: 450px;
+  border: 1px solid black;
+}
+
+/********** header **********/
+
+header{
+  background-color: #35D2B5;
+  color: white;
+}
+
+.icon-title div{
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.icon-title{
+  border-bottom:1px solid black;
+}
+
+.burger{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 7px;
+
+}
+
+.link{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding: 10px 0;
+}
+
+.links{
+  
+}
