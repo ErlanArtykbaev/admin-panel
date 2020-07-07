@@ -9,10 +9,11 @@ const Header = (props) => {
   function burgerClick(){
     if(isBurger){
       setShow("block")
+      setBurger(false)
     }else{
       setShow("none")
+      setBurger(true)
     }
-    setBurger(!isBurger)
   }
 
   return(

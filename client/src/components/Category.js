@@ -1,4 +1,6 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
+
 import Header from './Header'
 
 const Category = () => {
@@ -7,7 +9,13 @@ const Category = () => {
       <Header
         title="Category"
       ></Header>
-      there is the body
+      <div className="Category-main">
+        <NavLink className="Category-button" to="/news">news</NavLink>
+        <NavLink className="Category-button" to="/sport">sport</NavLink>
+        <NavLink className="Category-button" to="/programming">programming</NavLink>
+        <NavLink className="Category-button" to="/technology">technology</NavLink>
+      </div>
+      
     </div>
   )
 }
