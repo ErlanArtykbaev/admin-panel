@@ -27,6 +27,8 @@ const Header = (props) => {
         <NavLink to="/manageArticles" className="link">Manage Articles</NavLink>
         <NavLink to="/manageUsers" className="link">Manage Users</NavLink>
         <NavLink to="/login" className="link">Log in</NavLink>
+        <NavLink to="/logout" className="link">Log out</NavLink>
+        <NavLink to="/register" className="link">Register</NavLink>
       </div>
     </header>
   )

@@ -8,6 +8,9 @@ import ManageUsers from './components/ManageUsers'
 import UserEdit from './components/UserEdit'
 import Category from './components/Category'
 import ArticleEdit from './components/ArticleEdit'
+import Login from './components/Login'
+import Logout from './components/Logout'
+import Register from './components/Register'
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
           <Route path="/manageUsers" component={ManageUsers} />
           <Route path="/userEdit" component={UserEdit} />
           <Route path="/articleEdit" component={ArticleEdit} />
+          <Route path="/login" component={Login} />
+          <Route path="/logout" component={Logout} />
+          <Route path="/register" component={Register} />
         </Switch>
       </div>
     </BrowserRouter>
