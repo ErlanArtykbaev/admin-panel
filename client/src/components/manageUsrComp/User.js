@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const User = (props) => {
   return(
@@ -7,8 +8,8 @@ const User = (props) => {
         <p className="User-name">{props.name} </p>
       </div>
       <div className="User-buttons">
-        <button className="edit-button">edit</button>
-        <button className="delete-button">delete</button>
+        <Link to="/userEdit" className="edit-button" >edit</Link>
+        <Link to="/" className="delete-button">delete</Link>
       </div>
     </div>
   )
