@@ -7,6 +7,7 @@ import ManageArticles from './components/ManageArticles'
 import ManageUsers from './components/ManageUsers'
 import UserEdit from './components/UserEdit'
 import Category from './components/Category'
+import ArticleEdit from './components/ArticleEdit'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/manageArticles" component={ManageArticles} />
           <Route path="/manageUsers" component={ManageUsers} />
           <Route path="/userEdit" component={UserEdit} />
+          <Route path="/articleEdit" component={ArticleEdit} />
         </Switch>
       </div>
     </BrowserRouter>

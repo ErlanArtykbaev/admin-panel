@@ -37,6 +37,11 @@
 }
 
 .edit-button{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 140px;
   height: 30px;
   border-radius: 10px;
@@ -44,6 +49,11 @@
 }
 
 .delete-button{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 140px;
   height: 30px;
   border-radius: 10px;
@@ -66,4 +76,47 @@
 
 .ManagArt-create-button:hover{
   cursor: pointer;
+}
+
+/************article edit ***********/
+.ArticleEdit-save-button{
+  position: fixed;
+  left: 50px;
+  bottom: 40px;
+  width: 328px;
+  height: 48px;
+  background-color: #FFC107;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.ArticleEdit form{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  text-align: center;
+  padding: 20px;
+}
+
+.ArticleEdit form label{
+  margin-bottom: 20px;
+}
+
+.ArticleEdit textarea{
+  border-radius: 10px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.ArticleEdit input[type=text]{
+  border-radius: 10px;
+  height: 47px;
+  margin-bottom: 20px;
+}
+
+.ArticleEdit select{
+  height: 47px;
+  border-radius: 10px;
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Article = (props) => {
   return(
@@ -10,8 +11,8 @@ const Article = (props) => {
         <p className="Article-author"> {props.author} </p>
       </div>
       <div className="Article-buttons">
-        <button className="edit-button">edit</button>
-        <button className="delete-button">delete</button>
+        <Link to="/articleEdit" className="edit-button">edit</Link>
+        <Link to="/" className="delete-button">delete</Link>
       </div>
     </div>
   )
