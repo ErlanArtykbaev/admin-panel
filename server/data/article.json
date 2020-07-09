@@ -5,7 +5,7 @@
     "user_id": 1,
     "title": "Lorem ipsum",
     "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
-    "img": "news.jpg"
+    "img": "news.PNG"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "user_id": 2,
     "title": "Lorem ipsum",
     "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
-    "img": "news.jpg"
+    "img": "news.PNG"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "user_id": 3,
     "title": "Lorem ipsum",
     "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
-    "img": "news.jpg"
+    "img": "news.PNG"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "user_id": 4,
     "title": "Lorem ipsum",
     "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
-    "img": "news.jpg"
+    "img": "news.PNG"
   }
 ]

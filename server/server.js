@@ -1,15 +1,38 @@
-const http = require('http')
-let user = require('./data/user.json')
+const express = require("express");
+const bodyParser = require("body-parser");
 
-const server = http.createServer((req, res) => {
-  res.setHeader('Content-type', 'application/json')
-  res.writeHead(200)
+const app = express();
 
-  let data = JSON.stringify(user)
-  res.end(data)
+const fs = require("fs");
 
-})
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static(__dirname + '/img/'))
+app.use(function (req, res, next) {
 
-server.listen(3001,() => {
-  console.log('server is on 3001')
-})
+  // Website you wish to allow to connect
+  res.setHeader('Access-Control-Allow-Origin', '*');
+
+  // Request methods you wish to allow
+  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
+
+  // Request headers you wish to allow
+  res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+
+  // Set to true if you need the website to include cookies in the requests sent
+  // to the API (e.g. in case you use sessions)
+  res.setHeader('Access-Control-Allow-Credentials', true);
+
+  // Pass to next layer of middleware
+  next();
+});
+
+const routes = require("./routes/routes.js")(app, fs);
+
+
+
+const server = app.listen(3001, () => {
+  console.log("listening on port %s...", server.address().port);
+});
+
+
