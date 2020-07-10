@@ -1,14 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import {NavLink} from 'react-router-dom'
 
-import Header from './Header'
-import Article from './manageArtComp/Article'
+import Header from '../Header'
+import Article from '../manageArtComp/Article'
 
-import '../css/Articles.css'
-
-
-
-const ManageArticles = () => {
+const News = (props) => {
 
   const [articles, setArticles] = useState([])
 
@@ -20,7 +15,7 @@ const ManageArticles = () => {
   }, [])
 
   const fetchArticles = () =>{
-    fetch('http://localhost:3000/articles')
+    fetch(`http://localhost:3000/articles?category_id=1`)
     .then(res => res.json())
     .then(json => {
       setArticles(json)
@@ -30,9 +25,8 @@ const ManageArticles = () => {
   return(
     <>
       <Header
-        title="Manage Articles"
+        title="NEWS"
       ></Header>
-      <div className="ManagArt-main">
       {       
         articles.map(article => (
           <Article
@@ -46,12 +40,10 @@ const ManageArticles = () => {
 
         ))
       }
-
-      </div>
-      <NavLink to="/newArticle" className="ManagArt-create-button">create articel</NavLink>
-      
     </>
+    
+    
   )
 }
 
-export default ManageArticles
+export default News

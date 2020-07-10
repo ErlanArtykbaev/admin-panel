@@ -12,14 +12,14 @@ const Login = (props) => {
       />
       <div className="Login">
         <form>
-          <label for="name">username:</label>
+          <label htmlFor="name">username:</label>
           <input 
             placeholder="username" 
             id="name" 
             type="text" 
             name="name"
           />
-          <label for="name">password:</label>
+          <label htmlFor="name">password:</label>
           <input 
             placeholder="password" 
             id="password" 

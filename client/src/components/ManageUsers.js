@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import {NavLink} from 'react-router-dom'
 
 import Header from './Header'
 import User from './manageUsrComp/User'
@@ -11,12 +12,19 @@ const ManageUsers = () => {
   const[users, setUsers] = useState([])
 
   useEffect(() => {
-    fetch('http://localhost:3001/users')
+    const timer = setTimeout(() => {
+      fetchUsers()
+    }, 1500)
+    return () => clearTimeout(timer)
+  },[])
+
+  const fetchUsers = () => {
+    fetch('http://localhost:3000/users')
     .then(res => res.json())
     .then(json => {
       setUsers(json)
     })
-  })
+  }
 
 
   if(!users){
@@ -33,12 +41,13 @@ const ManageUsers = () => {
             users.map( user => (
               <User 
                 key={user.id}
+                userId={user.id}
                 name={user.username}
               />
             ))
           }
         </div>
-        <div className="ManagUsr-create-button">create user</div>   
+        <NavLink to="/register" className="ManagUsr-create-button">create user</NavLink>   
       </>
     )
   }
