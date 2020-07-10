@@ -42,7 +42,8 @@ const ManageUsers = () => {
               <User 
                 key={user.id}
                 userId={user.id}
-                name={user.username}
+                username={user.username}
+                password={user.password}
               />
             ))
           }

@@ -17,13 +17,13 @@ const Article = (props) => {
   return(
     <div className="Article">
       <div className="Article-main">
-        <img alt="newPhoto" src={"../" + props.img}></img>
+        <img alt="newPhoto" src={props.img}></img>
         <h2>{props.title}</h2>
         <p> {props.description} </p>
-        <p className="Article-author"> {props.author} </p>
+        <p className="Article-author"> {props.user_id} </p>
       </div>
       <div className="Article-buttons">
-        <Link to="/articleEdit" className="edit-button">edit</Link>
+        <Link to={`/articleEdit/${props.idArt}`} className="edit-button">edit</Link>
         <Link to="/" onClick={() => deleteArt(props.idArt)} className="delete-button">delete</Link>
       </div>
     </div>

@@ -1,0 +1,135 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "newErakampo",
+      "password": "newEra"
+    },
+    {
+      "id": 2,
+      "username": "beka",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "username": "nura",
+      "password": "1234"
+    },
+    {
+      "id": 4,
+      "username": "begzada",
+      "password": "1234"
+    },
+    {
+      "id": 5,
+      "username": "toki",
+      "password": "haha"
+    },
+    {
+      "id": 7,
+      "username": "era",
+      "password": "era"
+    },
+    {
+      "id": 12,
+      "username": "hahah",
+      "password": "hahah"
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "user_id": 1,
+      "title": "new ipsum is ready",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 2,
+      "category_id": 2,
+      "user_id": 2,
+      "title": "Lorem ipsum asdd adfghcvb",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "user_id": 3,
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "user_id": 3,
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 5,
+      "category_id": 4,
+      "user_id": 1,
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "user_id": 3,
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 7,
+      "category_id": 2,
+      "user_id": 4,
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 8,
+      "category_id": 4,
+      "user_id": 2,
+      "title": "Lorem ipsum",
+      "description": "Lorem ipsum jLorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum",
+      "img": "https://www.gracebethesda.com/wp-content/uploads/2019/09/news-1-1210x680.jpg"
+    },
+    {
+      "id": 9,
+      "category_id": "3",
+      "user_id": "2",
+      "title": "hello world",
+      "description": "hello world",
+      "img": "http://qnimate.com/wp-content/uploads/2014/03/images2.jpg"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "title": "news",
+      "parent_id": 2
+    },
+    {
+      "id": 2,
+      "title": "sport",
+      "parent_id": 1
+    },
+    {
+      "id": 3,
+      "title": "programming",
+      "parent_id": 3
+    },
+    {
+      "id": 4,
+      "title": "technology",
+      "parent_id": 4
+    }
+  ]
+}

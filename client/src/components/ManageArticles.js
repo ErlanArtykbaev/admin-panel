@@ -38,9 +38,10 @@ const ManageArticles = () => {
           <Article
             key={article.id}
             idArt={article.id}
+            category_id={article.category_id}
             title={article.title}
             description={article.description}
-            author={article.user_id}
+            user_id={article.user_id}
             img={article.img}
           />
 

@@ -17,10 +17,10 @@ const User = (props) => {
   return(
     <div className="User">
       <div className="User-main">
-        <p className="User-name">{props.name}{props.userId} </p>
+        <p className="User-name">{props.username}{props.userId} </p>
       </div>
       <div className="User-buttons">
-        <Link to="/userEdit" className="edit-button" >edit</Link>
+        <Link to={`/userEdit/${props.userId}`} className="edit-button" >edit</Link>
         <Link to="/" onClick={() => userDelete(props.userId)} className="delete-button">delete</Link>
       </div>
     </div>
